@@ -1,0 +1,250 @@
+*{
+    margin:0;
+    padding:0;
+}
+.row1 {
+    width: 1900px;
+    display: flex;
+    height: 39px;
+    line-height: 39px;
+    border-bottom: 1px solid rgb(235, 227, 227);
+    
+}
+.row1 .left{
+    width: 500px;
+    font-size:14px;
+}
+.row1 .left .a1{
+    color: rgb(99, 94, 94) ;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.row1 .left img {
+     margin-left: 40px;
+     color: rgb(182, 174, 174);
+     width: 25px;
+     margin-top: 3px;
+ }
+ .row1 .left img:hover {
+     color: red;
+ }
+.row1 .right {
+    width: 1400px;
+    margin-left: 1300px
+}
+.row1 .right a {
+    
+    text-decoration: none;
+    font-size: 14px;
+    padding-left: 30px;
+}
+
+.row1 .right .a3{
+    width:500px;
+    color: rgb(99, 94, 94) ;
+   
+}
+
+.row1 .right .a3:hover{
+    color: black;
+   
+}
+.row1 .right .a4{
+    color: rgb(99, 94, 94) ;
+}
+.row1 .right .a4:hover{
+    color: black;
+}
+.row1 .right .icon1 {
+    color: rgb(99, 94, 94) ;
+}
+.row1 .right .icon1:hover {
+    color: black;
+}
+.row1 .right .icon2 {
+    color: rgb(99, 94, 94) ;
+}
+.row1 .right .icon2:hover {
+    color: black;
+}
+.row2{
+    width: 1860px;
+    margin-left: auto;
+    margin-right: auto;
+    height:70px;
+    display: flex;
+    margin-top: 15px ;
+}
+.row2 img{
+    width: 70px;
+    height: 70px;
+}
+.row2 .menu{
+    width: 1300px;
+    margin-left: 600px;
+}
+.row2 .menu ul{
+    display: flex;
+    list-style: none;
+    
+}
+.row2 .menu ul li{
+    padding-right:40px ;
+}
+.row2 .menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    
+}
+.menutop {
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+}
+.row2 .search {
+    width: 270px;
+    border: 1px solid rgb(214, 208, 208);
+    border-radius: 2px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 8px;
+    
+   
+}
+.row2 .search span{
+    color: rgb(99, 94, 94);
+    padding-left: 2px;
+}
+.btn {
+    background-color:rgb(238, 238, 238);
+    width: 1900px;
+    height: 50px;
+    line-height:25px;
+    display: flex;
+    font-family: sans-serif;
+
+}
+.btn .icon_left{
+    width: 200px;
+    margin-top: 10px;
+    font-size: 27px;
+    padding-left: 600px;
+
+ }
+.btn p{
+    width: 350px;
+    padding-left: 15px;
+    font-size: 13px;
+    text-align: center;
+}
+.btn .icon_right{
+    width: 200px;
+    margin-top: 10px;
+    font-size: 27px;
+    padding-left: 150px;
+}
+.row3 {
+    width: 1900px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.row3 .row3t{
+    width: 300px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.row3 .row3p{
+    width: 300px;
+    margin-left: 1100px;
+    display: flex;
+}
+.row3 .row3p1{
+    width: 150px;
+    display: flex;
+    
+}
+.row3 .row3p1 p{
+    padding-right: 7px;
+}
+.row3 .row3p2 {
+    width: 150px;
+    display: flex;
+    margin-right: 17px;
+   
+}
+.row3 .row3p2 p{
+    padding-right: 7px;
+}
+.row3 .row3p2 .icon {
+    font-size: 17px;
+    font-weight: 600;
+}
+.row4{
+    width: 1200px;
+    display: flex;
+}
+.row4 .menu_left{
+    width: 200px;
+    margin-left: 150px;
+    margin-top: 30px;
+
+}
+.row4 .menu_left > ul{
+    width:100px;
+    list-style: none;
+}
+.row4 .menu_left > ul > li{
+  
+}
+.row4 .menu_left > ul >  li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family:  'Roboto', sans-serif;
+    font-weight:590;
+    height:30px;
+    line-height: 30px;
+}
+
+.row4 .menu_right{
+    width: 1100px;
+    margin-top: 40px;
+    margin-left:100px ;
+    display: flex;
+}
+
+.row4 .menu_right .img1{
+    width: 460px;
+    
+}
+.row4 .menu_right .img2{
+    width: 460px;
+    padding-left: 17px;
+}
+.row4 .menu_right .img3{
+    width: 460px;
+    padding-left: 17px;
+}
+li.Gender{
+    width:200px;
+    margin-top: 30px ;
+}   
+ li.Gender .text_top{
+     width: 155px;
+     display: flex;
+     border-top:1px solid rgb(197, 195, 195);
+     padding-top: 20px;
+     padding-bottom: 30px;
+ }
+ li.Gender .text_top p{
+     padding-right: 73px;
+ }
+ li.Gender .text_top form{
+     padding-right: 30px;
+     font-size: 15px;
+   
+ }
+
+

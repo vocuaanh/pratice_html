@@ -1,0 +1,161 @@
+* {margin:0; padding: 0;}
+:root {
+
+}
+.banner_top {
+ background-image: url('https://ik.imagekit.io/tvlk/apr-asset/TzEv3ZUmG4-4Dz22hvmO9NUDzw1DGCIdWl4oPtKumOg%3D/hotels/19000000/18770000/18767900/18767864/489efe72_z.jpg?tr=q-40,c-at_max,w-740,h-500&_src=imagekit');
+ background-size: cover;
+ height: 600px;
+ position: relative;
+ background-attachment: fixed;
+
+}
+.banner_top:before {
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    background-image: -webkit-linear-gradient(left, #000000fc 0%, #0a0a0a5e 50%, #000000ed 100%);
+
+}
+.banner_top .row {
+    display: flex;
+    width: 1800px;
+    position: absolute;
+    top: 0px;
+}
+.banner_top .row .row1 {
+    width: 600px;
+   
+}
+.banner_top .row .row1 a {
+    font-size: 25px;
+    color: white;
+    display: inline-block;
+    padding: 20px 30px;
+}
+.banner_top .row .row1 a:hover {
+    color: rgb(16, 30, 230);
+}
+.banner_top .row .row2 {
+    width: 600px;
+    text-align: center;
+}
+.banner_top .row .row2 img {
+    height: 40px;
+    padding-top: 20px;
+}
+.banner_top .row .row3 {
+    width: 600px;
+     text-align: right;
+     padding-top: 5px;
+  
+}
+.banner_top .row .row3 a {
+    color: white;
+    font-size: 20px;
+    padding: 15px 15px;
+    display: inline-block;
+}
+.text_banner {color: white;}
+.text_banner .content {
+    position: relative;
+    top: 300px;
+    width: 600px;
+    padding-left: 300px;
+}
+.text_banner .content .small {
+    font-size: 20px;
+}
+.text_banner .content h1{
+  padding-top: 20px;
+  font-size: 42px;
+  font-family: sans-serif;
+  letter-spacing: -2px;
+}
+.content1{
+    
+    width: 1200px;
+    margin: auto;
+    padding: 80px 0;
+    display: flex;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 14px ;
+   
+}
+.content1 .left{
+    width: 35%;
+    margin-top: 15px;
+}
+.content1 .left span{
+    font-size: 18px;
+    color: rgb(110, 107, 107);
+    line-height: 40px;
+}
+.content1 .left h2 {
+    font-family: sans-serif;
+    font-size: 23px;
+    width: 265px;
+    line-height: 40px;
+}
+.content1 .right{
+    width: 65%;
+}
+.content1 .right p{
+    font-size: 18px;
+    color: rgb(110, 107, 107);
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+.content1 .right p.btn:before{
+    content: "\f178";
+    font: normal normal normal 14px/1 FontAwesome;
+    padding-left: 10px;
+    font-size: 25px;
+    position: relative;
+    left: -5px;
+    transition: 0.4s;
+    color: grey;
+    font-weight: normal;
+    font-weight: lighter;
+}
+.content1 .right p.btn:hover:before{
+    left: 0px;
+    color: black;
+}
+
+.content1 .right p.btn a {
+    color: grey;
+    text-decoration: none;
+    font-size: 15px ;
+}
+.content1 .right p.btn a:hover {
+    color: black;
+}
+.menu{
+    background: black;
+    width: 100%;
+    height: 800px;
+}
+.menu .hangtren{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.menu .hangtren ul{
+    
+}
+.menu .hangtren li a{
+    list-style: none;
+    text-decoration: none;
+    
+}
+.menu .hangduoi{
+    width: 100%;
+    height: 500px;
+}
+.menu .hangduoi a{}
+.menu .hangduoi a img{}
